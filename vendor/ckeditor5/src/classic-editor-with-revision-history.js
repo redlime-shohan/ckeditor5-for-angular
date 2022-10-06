@@ -4,6 +4,7 @@
  */
 
 import BaseEditor from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
+import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
 import RevisionHistory from '@ckeditor/ckeditor5-revision-history/src/revisionhistory';
 import TrackChanges from '@ckeditor/ckeditor5-track-changes/src/trackchanges';
 import Comments from '@ckeditor/ckeditor5-comments/src/comments';
@@ -16,7 +17,7 @@ import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
 import CKBoxPlugin from '@ckeditor/ckeditor5-ckbox/src/ckbox';
 import PictureEditing from '@ckeditor/ckeditor5-image/src/pictureediting.js';
 import CloudServices from '@ckeditor/ckeditor5-cloud-services/src/cloudservices';
-import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
+
 import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily';
 import FontSize from '@ckeditor/ckeditor5-font/src/fontsize';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
