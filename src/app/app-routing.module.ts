@@ -11,13 +11,15 @@ import { TrackChangesAdapterComponent } from './track-changes-adapter/track-chan
 import { MenuComponent } from './menu/menu.component';
 import { RevisionHistoryAdapterComponent } from './revision-history-adapter/revision-history-adapter.component';
 import { MergeRichtextComponent } from './merge-richtext/merge-richtext.component';
+import { RichTextDiffComponent } from './rich-text-diff/rich-text-diff.component';
 
 const routes: Routes = [
 	{ path: '', component: MenuComponent },
 	{ path: 'load-save-integration', component: LoadSaveIntegrationComponent },
 	{ path: 'track-changes-adapter', component: TrackChangesAdapterComponent },
 	{ path: 'revision-history-adapter', component: RevisionHistoryAdapterComponent },
-	{ path: 'merge-richtext-adapter', component: MergeRichtextComponent }
+	{ path: 'merge-richtext-adapter', component: MergeRichtextComponent },
+	{ path: 'rich-text-diff', component: RichTextDiffComponent }
 ];
 
 @NgModule( {

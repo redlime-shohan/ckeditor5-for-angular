@@ -10,6 +10,8 @@ import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { RevisionHistoryAdapterComponent } from './revision-history-adapter/revision-history-adapter.component';
 import { MergeRichtextComponent } from './merge-richtext/merge-richtext.component';
+import { CoreService } from './core.service';
+import { RichTextDiffComponent } from './rich-text-diff/rich-text-diff.component';
 
 
 @NgModule({
@@ -19,7 +21,8 @@ import { MergeRichtextComponent } from './merge-richtext/merge-richtext.componen
 		LoadSaveIntegrationComponent,
 		RevisionHistoryAdapterComponent,
 		MergeRichtextComponent,
-		MenuComponent
+		MenuComponent,
+		RichTextDiffComponent
 	],
   imports: [
 		BrowserModule,
@@ -27,7 +30,7 @@ import { MergeRichtextComponent } from './merge-richtext/merge-richtext.componen
 		RouterModule,
 		AppRoutingModule
 	],
-  providers: [],
+  providers: [CoreService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
